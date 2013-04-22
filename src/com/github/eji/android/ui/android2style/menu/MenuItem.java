@@ -52,7 +52,6 @@ public class MenuItem {
 	    itemLayout.addView(caption);
 	    
 	    itemLayout.setOnClickListener( new OnClickListener() {
-	        @Override
 	        public void onClick(View v) {
 	            mHandler.handle();
 	            mMenu.hide();
